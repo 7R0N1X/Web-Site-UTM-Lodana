@@ -1,0 +1,62 @@
+#comentarios {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+}
+
+#comentarios .testimonials {
+    max-width: 1000px;
+}
+
+#comentarios .single-item {
+    background: #fff;
+    color: #111;
+    padding: 15px;
+    margin: 50px 15px;
+}
+
+#comentarios .profile {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#comentarios .img-area {
+    margin: 0 15px 15px 15px;
+}
+
+#comentarios .img-area img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid var(--color-primario);
+}
+
+#comentarios .content {
+    font-size: 18px;
+}
+
+#comentarios .content p {
+    text-align: justify;
+    font-family: var(--font-family);
+    font-weight: normal;
+}
+
+#comentarios .content p span {
+    font-size: 48px;
+    margin-right: 20px;
+    color: var(--color-primario);
+}
+
+#comentarios .socials i {
+    margin-right: 25px;
+}
+
+#comentarios .bio h4 {
+    font-family: var(--font-family);
+}
+
+#comentarios .carousel-control-next-icon,
+#comentarios .carousel-control-prev-icon {
+    background-color: var(--color-primario);
+}

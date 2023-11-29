@@ -1,0 +1,41 @@
+#contador {
+    margin-top: 30px;
+    padding: 0 100px;
+    background-color: var(--color-secundario);
+}
+
+#contador .container-fluid {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#contador .counter {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+#contador .count-title {
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#contador .count-text {
+    font-family: var(--font-family);
+    font-size: 1rem;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#contador .fa {
+    margin: 0 auto;
+    float: none;
+    display: table;
+    color: var(--color-primario);
+    font-size: 2rem;
+}

@@ -1,0 +1,48 @@
+#nuestra-oferta-academica {
+    padding: 0px 100px;
+}
+
+#nuestra-oferta-academica button {
+    font-family: var(--font-family);
+    font-size: 14px;
+}
+
+#nuestra-oferta-academica .card-title {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    margin-top: 42px;
+}
+
+#nuestra-oferta-academica .card-body {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+#nuestra-oferta-academica .fa-university {
+    color: var(--color-primario);
+    margin-right: 10px;
+}
+
+#nuestra-oferta-academica a {
+    margin-bottom: 10px;
+    color: var(--color-secundario);
+    box-shadow: inset 0 -1px 0 #ddd;
+    display: inline-table;
+    font-weight: normal;
+}
+
+#nuestra-oferta-academica a::after {
+    clear: both;
+    display: block;
+    float: left;
+    content: "";
+    position: relative;
+    height: 2px;
+    width: 70%;
+    margin: 10px 30% 0 0;
+    border-radius: 2px;
+    padding: 0;
+    background-color: var(--color-primario);
+}

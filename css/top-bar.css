@@ -1,0 +1,33 @@
+#top-var,
+#barra-navegacion {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* === Barra superior === */
+#top-var {
+    background-color: var(--color-primario) !important;
+    height: 49px;
+    padding: 0px 100px;
+}
+
+#top-var a {
+    font-family: var(--font-family) !important;
+    font-size: var(--font-size) !important;
+    color: white !important;
+}
+
+#top-var .utm {
+    font-weight: bold;
+}
+
+#top-var a {
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+}
+
+#top-var .fa-brands {
+    font-size: 24px;
+    color: white;
+}

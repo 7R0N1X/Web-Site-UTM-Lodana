@@ -1,0 +1,21 @@
+#barra-navegacion-media {
+    padding: 0px 100px;
+    background-color: var(--color-secundario);
+    height: 66px;
+}
+
+#barra-navegacion-media .nav-item a {
+    font-family: var(--font-family);
+    color: white;
+    font-size: var(--font-size);
+    font-weight: normal;
+}
+
+#barra-navegacion-media .nav-item a:hover {
+    color: white;
+}
+
+#barra-navegacion-media .fas,
+.fa-solid {
+    color: white;
+}

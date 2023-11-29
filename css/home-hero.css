@@ -1,0 +1,25 @@
+#hero-carousel .c-item {
+    height: 572px;
+}
+
+#hero-carousel .c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+#hero-carousel,
+p,
+h1,
+button {
+    font-family: var(--font-family);
+}
+
+#hero-carousel .btn {
+    background-color: var(--color-primario);
+    border: none;
+}
+
+#hero-carousel .btn:hover {
+    background-color: var(--color-primario-hover);
+}

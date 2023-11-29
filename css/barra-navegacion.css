@@ -1,0 +1,51 @@
+#navbar-brand {
+    padding: 0px 100px;
+}
+
+#navbar-brand a {
+    color: var(--color-primario);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+
+
+/* == Animación barra de navegación ==*/
+#navbar-brand li a {
+    position: relative;
+}
+
+#navbar-brand li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scale(0);
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: var(--color-primario);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+
+#navbar-brand li a:hover::after {
+    transform: scale(1);
+    transform-origin: bottom left;
+}
+
+/* == Formulario de búsqueda == */
+#btn-buscar .form-control:focus {
+    border-color: var(--color-primario);
+    box-shadow: none;
+}
+
+#btn-buscar button {
+    color: var(--color-primario);
+    border: 1px solid var(--color-primario);
+}
+
+#btn-buscar button:hover {
+    color: white;
+    background-color: var(--color-primario);
+}

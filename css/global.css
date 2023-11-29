@@ -1,0 +1,79 @@
+:root {
+    --color-primario: #172e28e3;
+    --color-primario-hover: #0a3830;
+    --color-secundario: #242A2E;
+    --color-secundario-hover: ;
+
+    --font-family: 'verdana', geneva;
+    --font-size: 10pt;
+    --fuente-titulo-secciones: 'Spectral SC', sans-serif;
+    --tamaño-fuente-titulo-secciones: 30px;
+}
+
+
+
+/* === Formateo general === */
+html {
+    scroll-behavior: smooth;
+}
+
+section[id] {
+    scroll-margin-top: 90px;
+}
+
+ol,
+li,
+ul,
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+/* == Formateo general para los títulos de las secciones == */
+section .titulo-seccion {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0;
+    font-family: var(--fuente-titulo-secciones);
+    font-size: var(--tamaño-fuente-titulo-secciones);
+    color: var(--color-secundario);
+    box-shadow: inset 0 -1px 0 #ddd;
+    display: inline-table;
+}
+
+section .titulo-seccion::after {
+    clear: both;
+    display: block;
+    float: left;
+    content: "";
+    position: relative;
+    height: 2px;
+    width: 70%;
+    margin: 10px 30% 0 0;
+    border-radius: 2px;
+    padding: 0;
+    background-color: var(--color-primario);
+}
+
+
+
+/* == Formateo general para los acordiones == */
+.accordion-button:is(.collapsed) {
+    background-color: #f9f9f9;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: var(--color-primario);
+}
+
+.accordion-button {
+    font-family: var(--font-family);
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
