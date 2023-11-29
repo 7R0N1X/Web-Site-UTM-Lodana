@@ -13,6 +13,14 @@
 
 
 /* === Formateo general === */
+html {
+    scroll-behavior: smooth;
+}
+
+section[id] {
+    scroll-margin-top: 90px;
+}
+
 ol,
 li,
 ul,
@@ -159,7 +167,7 @@ section .titulo-seccion::after {
 
 #btn-buscar button:hover {
     color: white;
-    background-color: var(--color-primario-hover);
+    background-color: var(--color-primario);
 }
 
 
