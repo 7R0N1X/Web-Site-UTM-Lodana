@@ -1,0 +1,60 @@
+#hero-facultad-ciencias-veterinarias {
+    width: 100%;
+    height: 532px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/hero/hero-ciencias-veterinarias.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 50%;
+    background-attachment: fixed;
+}
+
+#oferta-academica-ciencias-veterinarias {
+    margin-bottom: 30px;
+}
+
+#accordionExample h3{
+    font-size: 16pt;
+}
+
+#oferta-academica-ciencias-veterinarias p,
+#oferta-academica-ciencias-veterinarias li {
+    font-weight: 400;
+    color: black;
+}
+
+#oferta-academica-ciencias-veterinarias .tabla-info-carrera {
+    width: 50%;
+}
+
+.carrera, .anio{
+    font-weight: normal;
+}
+
+#oferta-academica-ciencias-veterinarias .visualizar{
+    background-color: var(--color-secundario);
+    border: none;
+}
+
+#oferta-academica-ciencias-veterinarias .tabla-info-malla {
+    width: 10%;
+}
+
+#oferta-academica-ciencias-veterinarias .activa,
+#oferta-academica-ciencias-veterinarias .en-curso,
+#oferta-academica-ciencias-veterinarias .cerrado {
+    width: 100px;
+    background-color: var(--color-primario);
+    cursor: default;
+    border: none;
+}
+
+#oferta-academica-ciencias-veterinarias .activa:hover,
+#oferta-academica-ciencias-veterinarias .en-curso:hover,
+#oferta-academica-ciencias-veterinarias .cerrado:hover {
+    background-color: var(--color-primario);
+}
+
+#oferta-academica-ciencias-veterinarias .malla td {
+    vertical-align: middle;
+    text-align: center;
+}

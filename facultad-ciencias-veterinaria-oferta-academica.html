@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Metadatos-->
+  <meta charset="UTF-8">
+  <meta name="author" content="@tronix.dev">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@300&family=Spectral+SC:wght@200;400&display=swap"
+    rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/top-bar.css">
+  <link rel="stylesheet" href="./css/barra-navegacion.css">
+  <link rel="stylesheet" href="./css/facultad-ciencias-veterinarias.css">
+  <link rel="stylesheet" href="./css/navegacion-media.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+  <!-- Titulo -->
+  <title>Universidad Técnica de Manabí</title>
+</head>
+
+<body>
+
+  <!-- Barra superior -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="top-var">
+    <div class="container-fluid">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" id="utm">
+            <strong class="utm"></a>
+        </li>
+      </ul>
+      <ul class="navbar-nav sm-icons">
+        <li class="nav-item icon-redes"><a class="nav-link" href="#"><i class="fa-brands fa-square-facebook"></i></a>
+        </li>
+        <li class="nav-item icon-redes"><a class="nav-link" href="#"><i class="fa-brands fa-square-instagram"></i></a>
+        </li>
+        <li class="nav-item icon-redes"><a class="nav-link" href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Barra de navegacion -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="barra-navegacion">
+    <div class="container-fluid" id="navbar-brand">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./img/logo-utm.png" alt="Facultad de Ciencias Agropecuarias">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menú de navegación -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./index.html#noticias">Noticias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./index.html#eventos">Eventos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html#nuestra-oferta-academica">Oferta Académica</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" target="_blank"> Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" target="_blank"> Admisión</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.utm.edu.ec/investigacion/" target="_blank"> Investigación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contáctenos</a>
+          </li>
+        </ul>
+
+        <!-- Formulario de búsqueda -->
+        <form class="d-flex" id="btn-buscar">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero-facultad-ciencias-veterinarias">
+    <div class="container">
+      <!-- <h3 class="hero-h3">Wellcome</h3>
+        <p class="hero-p">La Facultad de Ingeniería Agrícola le da bienvenida al estudio, a la detección y
+            solución<br>
+            los problemas locales, regionales y nacionales, relacionados con la ingeniería aplicada a la
+            mecanización<br>
+            agrícola, construcción agrícola, estudios de suelos, agua, su uso racional y su conservación.</p>
+        <div>
+            <button type="button" class="btn btn-primary">Oferta Académica</button>
+        </div> -->
+    </div>
+  </section>
+
+  <section id="oferta-academica-ciencias-veterinarias">
+    <div class="container-fluid">
+      <div class="text-center">
+        <h3 class="titulo-seccion">Oferta Académica</h3>
+      </div>
+      <!-- Acordion -->
+      <div class="accordion container" id="accordionExample">
+
+        <!-- Carrera 1 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              Medicina Veterinaria
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body text-start">
+              <!-- Tabla informativa -->
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <td class="tabla-info-carrera">
+                      <h3>MODALIDAD</h3>
+                      <p>Presencial</p>
+                      <h3>PERFIL DE INGRESO</h3>
+                      <p>El aspirante de la carrera de Ingeniería Agrícola deberá tener:</p>
+                      <ul>
+                        <li>Capacidad de lectura comprensiva.</li>
+                        <li>Capacidad de expresión oral y escrita.</li>
+                        <li>Capacidad de observación, análisis y sentido crítico.</li>
+                        <li>Habilidad en el manejo de las TICs (manejo de programas básicos de procesadores de
+                          texto,
+                          bases de datos y presentaciones).</li>
+                        <li>Observación y práctica de valores éticos y morales</li>
+                      </ul>
+                    </td>
+                    <td>
+                      <p><b>Fecha de creación:</b> 30 de julio de 1968</p>
+                      <p><b>Teléfono:</b> 0000000000</p>
+                      <p><b>Correo:</b> carlos.vinces@utm.edu.ec</p>
+                      <p><b>Vicedecano:</b> Ing. Carlos Vinces Solórzano, Mg.</p>
+                      <p><b>Horarios de Atención:</b> 07:00 a 16:00</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h3>PERFIL DE EGRESO</h3>
+                      <p>Están relacionados con los valores y cualidades que se deben favorecer en la formación del
+                        profesional durante el desarrollo de la carrera, expresados en logros de aprendizajes.</p>
+                    </td>
+                    <td>
+                      <h3>PERFIL PROFESIONAL</h3>
+                      <p>El Ingeniero Agrícola es un profesional con capacidad de conocer, desarrollar y aplicar la
+                        ciencia
+                        y la tecnología en los ámbitos de las explotaciones agrícolas, cartografía, mejoramiento de
+                        paisaje y jardinería, industria agroalimentaria, desarrollo de maquinaria e implementos
+                        agrícolas,
+                        manejo de recursos hídricos y la energía, cadena de valor y comercialización de productos
+                        agropecuarios y biotecnología; con el compromiso de mejorar las condiciones de identidad,
+                        sociales, económicas, ecológicas y de respeto al ser humano y la naturaleza.</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <!-- Tabla de mallas -->
+              <table class="table table-bordered malla">
+                <thead>
+                  <tr>
+                    <th scope="col" class="titulo-columna-tabla-info-carrera">CARRERA</th>
+                    <th scope="col" class="text-center tabla-info-malla">MALLA</th>
+                    <th scope="col" class="text-center tabla-info-malla">ESTADO</th>
+                    <th scope="col" class="text-center tabla-info-malla">ARCHIVO</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="text-start carrera">Medicina Veterinaria</td>
+                    <td class="anio">2016</td>
+                    <td>
+                      <button type="button" class="btn btn-primary activa">Activa</button>
+                    </td>
+                    <td>
+                      <button type="button" class="btn btn-primary visualizar">Visualizar</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="text-start carrera">Medicina Veterinaria</td>
+                    <td class="anio">2009</td>
+                    <td>
+                      <button type="button" class="btn btn-primary en-curso">En curso</button>
+                    </td>
+                    <td>
+                      <button type="button" class="btn btn-primary visualizar">Visualizar</button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Carrera 2 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Biología
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body text-start">
+
+              <!-- Tabla informativa -->
+              <table class="table">
+                <tbody>
+                  <tr style="width: 50%">
+                    <td>
+                      <h3>MODALIDAD</h3>
+                      <p>Presencial</p>
+                      <h3>PERFIL DE INGRESO</h3>
+                      <p>El aspirante de la carrera de Ingeniería Agrícola deberá tener:</p>
+                      <ul>
+                        <li>Capacidad de lectura comprensiva.</li>
+                        <li>Capacidad de expresión oral y escrita.</li>
+                        <li>Capacidad de observación, análisis y sentido crítico.</li>
+                        <li>Habilidad en el manejo de las TICs (manejo de programas básicos de procesadores de
+                          texto,
+                          bases de datos y presentaciones).</li>
+                        <li>Observación y práctica de valores éticos y morales</li>
+                      </ul>
+                    </td>
+                    <td>
+                      <p><b>Fecha de creación:</b> 30 de julio de 1968</p>
+                      <p><b>Teléfono:</b> 0000000000</p>
+                      <p><b>Correo:</b> carlos.vinces@utm.edu.ec</p>
+                      <p><b>Vicedecano:</b> Ing. Carlos Vinces Solórzano, Mg.</p>
+                      <p><b>Horarios de Atención:</b> 07:00 a 16:00</p>
+                    </td>
+                  </tr>
+                  <tr style="width: 50%">
+                    <td>
+                      <h3>PERFIL DE EGRESO</h3>
+                      <p>Están relacionados con los valores y cualidades que se deben favorecer en la formación del
+                        profesional durante el desarrollo de la carrera, expresados en logros de aprendizajes.</p>
+                    </td>
+                    <td style="width: 50%;">
+                      <h3>PERFIL PROFESIONAL</h3>
+                      <p>El Ingeniero Agrícola es un profesional con capacidad de conocer, desarrollar y aplicar la
+                        ciencia
+                        y la tecnología en los ámbitos de las explotaciones agrícolas, cartografía, mejoramiento de
+                        paisaje y jardinería, industria agroalimentaria, desarrollo de maquinaria e implementos
+                        agrícolas,
+                        manejo de recursos hídricos y la energía, cadena de valor y comercialización de productos
+                        agropecuarios y biotecnología; con el compromiso de mejorar las condiciones de identidad,
+                        sociales, económicas, ecológicas y de respeto al ser humano y la naturaleza.</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <!-- Tabla de mallas -->
+              <table class="table table-bordered malla">
+                <thead>
+                  <tr>
+                    <th scope="col">CARRERA</th>
+                    <th scope="col" style="width: 10%;" class="text-center">MALLA</th>
+                    <th scope="col" style="width: 10%;" class="text-center">ESTADO</th>
+                    <th scope="col" style="width: 10%;" class="text-center">ARCHIVO</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="text-start carrera">Biología</td>
+                    <td class="anio">2016</td>
+                    <td>
+                      <button type="button" class="btn btn-primary activa">Activa</button>
+                    </td>
+                    <td>
+                      <button type="button" class="btn btn-primary visualizar" data-bs-target="#exampleModal">Visualizar</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="text-start carrera">Biología</td>
+                    <td class="anio">2009</td>
+                    <td>
+                      <button type="button" class="btn btn-primary en-curso">En curso</button>
+                    </td>
+                    <td>
+                      <button type="button" class="btn btn-primary visualizar">Visualizar</button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+  <footer class="footer_area section_padding_130_0" id="footer">
+    <div class="container">
+      <div class="row">
+        <!-- Single Widget-->
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="single-footer-widget section_padding_0_130">
+            <h5 class="widget-title">Contáctanos</h5>
+            <div class="mb-3"></div>
+            <p>(052) 323-4557</p>
+            <p>Las líneas están abiertas:</p>
+            <p>Lunes - Viernes 9:00 am - 4:30 pm</p>
+            <p>Universidad Técnica de Manabí</p>
+            <p>RJF7+GF9, Santa Ana - Ecuador</p>
+            <a href="https://maps.app.goo.gl/WQw6mFVNssREpCGC6" target="_blank" class="btn-maps">
+              <i class="fa-solid fa-map-location-dot"></i> Mapas y direcciones</a>
+          </div>
+        </div>
+        <!-- Single Widget-->
+        <div class="col-12 col-sm-6 col-lg">
+          <div class="single-footer-widget section_padding_0_130">
+            <!-- Widget Title-->
+            <h5 class="widget-title">Enlaces rápidos</h5>
+            <!-- Footer Menu-->
+            <div class="footer_menu">
+              <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./index.html#noticias">Noticias</a></li>
+                <li><a href="./index.html#eventos">Eventos</a></li>
+                <li><a href="./index.html#nuestra-oferta-academica">Oferta Académica</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Admisión</a></li>
+                <li><a href="#">Investigación</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Single Widget-->
+        <div class="col-12 col-sm-6 col-lg">
+          <div class="single-footer-widget section_padding_0_130">
+            <!-- Widget Title-->
+            <h5 class="widget-title">Ayuda</h5>
+            <!-- Footer Menu-->
+            <div class="footer_menu">
+              <ul>
+                <li><a href="#">Política de privacidad</a></li>
+                <li><a href="#">Términos y condiciones</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Single Widget-->
+        <div class="col-12 col-sm-6 col-lg">
+          <div class="single-footer-widget section_padding_0_130">
+            <!-- Widget Title-->
+            <h5 class="widget-title">Contacto</h5>
+            <!-- Footer Menu-->
+            <div class="footer_menu">
+              <ul>
+                <li><a href="#">Escríbenos</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/eca88a6fe2.js" crossorigin="anonymous"></script>
+
+  <!-- JavaScript -->
+  <script src="./js/date.js"></script>
+  <script src="./js/counter.js"></script>
+
+</body>
+
+</html>
